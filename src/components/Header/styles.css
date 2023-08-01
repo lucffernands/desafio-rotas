@@ -1,0 +1,28 @@
+header {
+    background-color: var(--color-blue);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-content-container {
+    display: flex;
+}
+
+.navbar-menu-item {
+    color: var(--color-white);
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.navbar-active {
+    font-weight: 700;
+}
+
+
