@@ -7,7 +7,7 @@ export default function About() {
         <main>
             <section>
                 <div className="container">
-                    <div className="card-title">
+                    <div>
                         <CardTitle title="Sobre nós" />
                     </div>
                 </div>

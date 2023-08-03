@@ -1,11 +1,11 @@
 type Props = {
-    title: string;
+    title : string;
 }
 
 export default function CardTitle({title} : Props) {
 
     return (
-        <div className="card">
+        <div>
             <h2>{title}</h2>
         </div>
     );

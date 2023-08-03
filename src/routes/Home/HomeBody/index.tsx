@@ -7,7 +7,7 @@ export default function HomeBody() {
         <main>
             <section>
                 <div className="container">
-                    <div className="card-title">
+                    <div>
                         <CardTitle title="Bem-vindos!" />
                     </div>
                 </div>

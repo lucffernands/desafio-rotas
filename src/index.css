@@ -14,17 +14,13 @@
   font-family: "Inter";
 }
 
-a, a:hover {
-  text-decoration: none;
-  color: var(--color-white);
-}
-
 .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
-.card-title {
-  margin-top: 20px;
+.menu-active {
+  font-weight: 700;
 }
