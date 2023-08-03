@@ -6,6 +6,7 @@ import About from './routes/Home/About';
 import Computer from './routes/Home/Products/Computer';
 import Eletronic from './routes/Home/Products/Eletronic';
 import Book from './routes/Home/Products/Book';
+import NotFound from './routes/Home/NotFound';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Route path="eletronics" element={<Eletronic />} />
             <Route path="books" element={<Book />} />
           <Route path="about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </BrowserRouter>
